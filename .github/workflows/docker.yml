@@ -1,0 +1,19 @@
+name: Build Docker Images
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  docker:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        app: [backend, frontend]
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Build Docker image
+        run: docker build -t taskmanagement-${{ matrix.app }} ./${{ matrix.app }}
