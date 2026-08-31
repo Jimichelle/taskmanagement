@@ -2,6 +2,8 @@
 
 **Application de gestion de tâches**
 
+![Dashboard](./assets/img/dashboard.png)
+
 ## Participants
 
 **FALL Ndeye Fatima**  
@@ -59,7 +61,7 @@ taskmanagement/
 **Installation**
 
 ```shell
-cd frontend #Déplacement vers le répertoire de travail
+cd frontend # Déplacement vers le répertoire de travail
 
 npm install # Installation des dépendances
 ```
@@ -77,3 +79,36 @@ npm run preview # Prévisualisation du projet compilé
 
 npm run test # Test unitaire
 ```
+
+### Back-End
+
+**Installation**
+
+```shell
+cd backend # Déplacement vers le répertoire de travail
+
+npm install # Installation des dépendances
+```
+
+**Lancement**
+
+```shell
+npm start # Lancement du serveur de production
+
+npm dev # Lancement du seerveur de développement
+
+npm test # Test unitaire
+
+npm lint # Analyse de code
+```
+
+## Comment participer ?
+
+1 - Faire un fork du projet  
+2 - Ouvrir une issue sur github  
+3 - Ouvrir une nouvelle branche avec ce format : `issues/issue-self-explanatory-name`  
+4 - Faire vos modifications  
+5 - Faire un pull request  
+6 - Attendre la validation  
+7 - Faire un merge  
+8 - Félicitations votre code est sur le projet !  
