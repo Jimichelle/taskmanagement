@@ -104,6 +104,7 @@ npm lint # Analyse de code
 
 ## Comment participer ?
 
+### Code of Conduct
 1 - Faire un fork du projet  
 2 - Ouvrir une issue sur github  
 3 - Ouvrir une nouvelle branche avec ce format : `issues/issue-self-explanatory-name`  
@@ -112,3 +113,9 @@ npm lint # Analyse de code
 6 - Attendre la validation  
 7 - Faire un merge  
 8 - Félicitations votre code est sur le projet !  
+
+### Project Roadmap
+
+Vous pouvez [consulter](https://github.com/users/Jimichelle/projects/6) la roadmap du projet pour suivre l'avancement des fonctionnalités et des tâches à réaliser.
+
+![Roadmap](./assets/img/github_project.png)
